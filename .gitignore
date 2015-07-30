@@ -11,3 +11,31 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore vim, tmux, dumps, zshrcs, bash and all of the weird things
+.bash_logout
+.bashrc
+.gemrc
+.hushlogin
+.profile
+.tmux.conf
+.vimrc
+.zcompdump*
+.vim/
+code/
+.zsh_history
+.zshrc
+.ssh/
+.oh-my-zsh/
+
+# Ignore all .cache/ files
+.cache/
+
+# Ignore all .gem/ files
+.gem/
+
+# Ignore all .npm/ files
+.npm/
+
+# Ignore .gitconfig
+.gitconfig
