@@ -39,3 +39,6 @@ code/
 
 # Ignore .gitconfig
 .gitconfig
+
+# Ignore Gemfile.lock
+Gemfile.lock
